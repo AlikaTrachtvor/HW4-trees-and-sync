@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        //testPartA();
+        testPartA();
         testPartB();
     }
 
-    /*private static void testPartA() {
+    private static void testPartA() {
         System.out.println("Testing part A...");
         testPartA1();
         testPartA2();
@@ -48,7 +48,7 @@ public class Main {
             testPartA2(root.getLeft());
             testPartA2(root.getRight());
         }
-    }*/
+    }
 
     private static void testPartB() {
         System.out.println("Testing part B...");
